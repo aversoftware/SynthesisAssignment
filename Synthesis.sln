@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synthesis", "Synthesis\Synthesis.csproj", "{6AD13A69-7270-4F2D-BDBF-2FC68BD222A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synthesis.Data", "Synthesis.Data\Synthesis.Data.csproj", "{DA0E663F-4E55-4C85-B031-35E00193F559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68283A6A-1F18-461F-AE05-EDF03BC1CDDB}"
+	ProjectSection(SolutionItems) = preProject
+		Synthesis-Test.ps1 = Synthesis-Test.ps1
+		TCO.xlsx = TCO.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AD13A69-7270-4F2D-BDBF-2FC68BD222A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD13A69-7270-4F2D-BDBF-2FC68BD222A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD13A69-7270-4F2D-BDBF-2FC68BD222A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD13A69-7270-4F2D-BDBF-2FC68BD222A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0E663F-4E55-4C85-B031-35E00193F559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0E663F-4E55-4C85-B031-35E00193F559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0E663F-4E55-4C85-B031-35E00193F559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0E663F-4E55-4C85-B031-35E00193F559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52BE0D90-8044-4FCB-B4BF-50A5D7DC80F4}
+	EndGlobalSection
+EndGlobal
